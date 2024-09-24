@@ -1,0 +1,804 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"); */
+@import url("https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+    background-color:  rgb(196, 158, 233);
+}
+
+
+
+
+nav{
+    height: 45px;
+  margin: 20px;
+    display: flex;
+
+}
+nav a{
+    font-size: 25px;
+    padding-left: 16px;
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+}
+nav a:hover{
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.container{
+    height: 100vh;
+
+background-color: rgb(196, 158, 233);
+z-index: 1;
+
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+  height: 65vh;
+  margin: 0 auto;
+  z-index: 6;
+  position: relative;
+  padding-top: 17vh;
+}
+
+.img2{
+  position: absolute;
+ 
+  height: 34vh;
+  top: 19vh;
+  left: 28vw;
+  z-index: 1;
+}
+.img3{
+    position: absolute;
+    height: 17vh;
+    top: 37%;
+    left: 21%;
+    z-index: 1;
+}
+.img4{
+    position: absolute;
+    height: 20vh;
+    top: 7%;
+    left: 42%;
+    z-index: 1;
+}
+.img5{
+    position: absolute;
+    height: 22vh;
+    top: 23%;
+    left: 39%;
+  
+    z-index: 3;
+}
+.img6{
+   
+    z-index: 3;
+    position: absolute;
+    height: 15vh;
+    top: 37%;
+    left: 52%;
+}
+
+
+.img7{
+  position: absolute;
+  height: 54vh;
+  top: 33%;
+  left: 54vw;
+  z-index: 2;
+}
+.img8{
+    position: absolute;
+    height: 54vh;
+  top: 33%;
+  right: 58vw;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+.img9{
+    position: absolute;
+    height: 31vh;
+    top: 12%;
+    left: 60%;
+    z-index: 2;
+    transform: scaleX(-1);
+}
+.img10{
+    position: absolute;
+    height:19vh;
+    top: 37%;
+    left: 62%;
+    z-index: 1;
+}
+
+.c2img1{
+    
+        position: relative;
+        height: 140px;
+       top:-3%;
+        z-index: 1;
+        transition: all .1s ease;
+    
+}
+.c2img2{
+    
+    position: absolute;
+    top: 129%;
+    left: 66%;
+    height: 175px;
+    z-index: 2;
+    transition: all .1s ease;
+    
+}
+
+#imgGlass{
+    transition: all .1s ease;
+}
+
+
+
+.main-heading{
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: bolder;
+  
+    top: 15%;
+    
+    font-size: 5.2rem;
+
+    z-index: 3;
+    transition: 1s ease-in-out;
+}
+
+.hide{
+    top: 50%;
+    left: 50%;
+    height: 10px;
+    font-size: 10px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+/* .container1{
+    transition: 1s ease-in-out;
+} */
+
+
+.container1> *  {
+    transition: .1s ease-out;
+}
+.transi{
+    transition: .8s ease-in-out;
+}
+
+.container2{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+   
+}
+
+.container2_1{
+height: 100vh;
+width: 50%;
+/* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(./images/plate.png)  no-repeat center  ;
+background-size: cover;
+}
+
+#plateImg{
+height: 690px;
+}
+
+.container2_2{
+    height: 100vh;
+    width: 50%;
+    background-color: chocolate;
+  
+   
+    }
+
+    .container2_2-heading{
+        margin: 10px;
+        background-color: darkolivegreen;
+        box-shadow: 7px 12px 8px;
+        height: 45vh;
+
+    }
+    .container2_2-heading h1{
+     
+        font-size: 6.2rem;
+        padding: 12px;
+        font-family: fantasy;
+
+    }
+
+    .container2_2-content{
+       
+        font-size: 21px;
+        margin: 10px;
+        padding: 20px;
+        font-family: fangsong;
+    }
+    
+
+    .hidden-text {
+        opacity: 0;
+        transition: opacity .8s ease;
+    }
+
+    .visible {
+        opacity: 1;
+    }
+
+
+    /* Add this at the end of your existing CSS */
+.section-2 {
+  background-color: #140a0b;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.scroll-image {
+border-radius: 44px;
+  height: 72vh;
+}
+
+.text-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 0;
+   width: 15vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: transparent; 
+    transition: color 0.5s ease;
+    z-index: 1;
+    transform: translateY(-50%);
+    overflow: hidden; 
+}
+
+.revealed {
+    color: black; /* Revealed text color */
+}
+.scroll-text{
+  font-size: 3rem;
+    font-weight: bolder;
+    /* font-style: italic; */
+    font-family: cursive;
+}
+
+
+
+/* container-4 */
+.slider-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .left-slide {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .left-slide > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .left-slide h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+  }
+
+  .left-slide p{
+    margin-bottom: 14px;
+  }
+
+  .right-slide {
+    height: 100% !important;
+    position: absolute !important;
+    left: 35% !important;
+    width: 65% !important;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .right-slide > div {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  .buttons {
+    border: none;
+    background-color: #fff;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #c4b1{
+    width: 138px;
+    box-shadow: 8px 8px 6px;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 10px;
+    background-color: burlywood;
+    transition: .5s ease;
+    margin: 2px;
+  }
+  #c4b1:hover{
+    width: 145px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin: 1px;
+  }
+  
+  
+  .slider-container .action-buttons button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+  }
+  
+  .slider-container .action-buttons .down-button {
+    transform: translateX(-100%);
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .slider-container .action-buttons .up-button {
+    transform: translateY(-100%);
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .down-button:hover,
+  .up-button:hover {
+    background-color: #413c3c;
+  }
+  
+ 
+.c4b1 {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: hsl(255deg 50% 40%);
+    border: solid 4px hsl(282deg 39% 70%);
+    font-family: inherit;
+   }
+   
+   .default-btn,.hover-btn {
+    background-color: hsl(255deg 50% 40%);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+   }
+   
+   .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: hsl(255deg 50% 49%);
+    transform: translate(0%,100%);
+   }
+   
+   .default-btn span {
+    color: hsl(0, 0%, 100%);
+   }
+   
+   .hover-btn span {
+    color: hsl(50deg 100% 50%);
+   }
+   
+   .c4b1:hover .default-btn {
+    transform: translate(0%,-100%);
+   }
+   
+   .c4b1:hover .hover-btn {
+    transform: translate(0%,0%);
+   }
+
+
+  /* container-5 */
+
+
+.container5{
+    /* position: absolute; */
+    height: 100vh;
+    background: #b3c8f2 url(./images/svgg.svg) center no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  display: flex;
+  
+}
+
+.container5-content{
+    padding-top: 14%;
+    padding-left: 5%;
+}
+
+
+.c5h1{
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.c5p1{
+    font-size: 1.1rem;
+    font-family: cursive;
+    padding: 10px;
+    
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #3f964f;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #3f964f;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+  
+
+  
+
+
+   
+  /* Create Three Equal Columns That Float Next To Each Other. */
+
+.row{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+ 
+  
+  /* Clear Floats After The Columns. */
+  
+  
+ 
+  
+  .stats-box {
+    width: 200px;
+    height: 120px;
+    background: #4169E1;
+    color: #FFF;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 25px 0 16px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .stats-box>*{
+    margin: 5px;
+  }
+  
+  .stats-box .fas {
+      font-size: 35px;
+  }
+  
+  .stats-reload-button {
+      background: #663399; 
+      color: #FFF; 
+      width: 200px; 
+      height: 35px; 
+      border: 0; 
+      font-size: 18px; 
+      font-weight: bold; 
+      margin: 0 auto; display: block; 
+      margin-bottom: 15px
+  }
+  
+  /* Responsive Layout - Makes The 3 Columns Stack On Top Of Each Other Instead Of Next To Each Other On Phones. */
+  
+  @media screen and (max-width: 600px) {
+    .stats-column {
+      width: 100%;
+    }
+  }
+
+
+/* for responsiveness of all the layouts */
+@media screen and (max-width:800px){
+    
+.scroll-image {
+  width: 42vw;
+  height: 64vh;
+}
+
+
+  .img2 {
+    height: 31vh;
+    width: 26vw;
+    top: 19vh;
+    left: 16vw;
+}
+
+.img7 {
+   
+  width: 45vw;
+}
+.img8 {
+ 
+  width: 45vw;
+}
+
+.c2img1 {
+
+  top: 4%;}
+
+  /* container-2 */
+  .container2_2-heading {
+    height: 40vh;
+  }
+  .container2_2-heading h1 {
+    font-size: 4rem;
+  }
+  .container2_2-content {
+    font-size: 1rem;
+  }
+
+  .left-slide h1 {
+    font-size: 8vw;
+  }
+
+  .default-btn, .hover-btn {
+  
+    font-size: 4vw;
+  }
+
+  .left-slide p {
+    margin-bottom: 20vh;
+}
+.text-wrapper {
+  width: 20vw;
+}
+
+.scroll-text {
+    font-size: 4vw;
+    padding: 0;
+}
+
+}
+
+
+@media screen and (max-width:710px){
+  .img1 {
+    width: 95vw;
+  }
+  
+
+ 
+  main-heading {
+   
+    font-size: 4.5rem;
+  }
+  nav a {
+    font-size: 23px;
+  }
+
+}
+
+@media screen and (max-width:580px){
+
+  nav {
+  
+    margin: 20px 5px;
+   
+}
+
+  nav a {
+    font-size: 16px;
+}
+
+  .main-heading {
+    font-size: 16vw;
+  }
+  .img4 {
+    top: 10%;
+    left: 30vw;
+}
+
+  .img9 {
+  
+    height: 30vh;
+    width: 33vw;
+  }
+
+  /* .c2img2 {
+    height: 18vw;
+  } */
+
+.container2_2-heading h1 {
+  font-size: 11vw;
+}
+.c2img1 {
+
+  height: 110px;
+}
+.container2_2-content {
+  font-size: 3vw;
+}
+
+@media screen and (max-width:550px){
+
+.main-heading{
+  top: 20%;
+}
+.img1 {
+  height: 57vh;
+}
+
+  .img2 {
+    height: 24vh;
+    width: auto;
+    top: 25vh;
+    left: 0vw;
+}
+.img3 {
+ 
+  height: 12vh;
+  top: 43%;
+  left: 0%;
+}
+.img4 {
+
+  height: 20vh;
+  top: 10%;
+}
+
+.img4 {
+  
+  top: 10%;}
+
+  .img5 {
+  
+    height: 18vh;
+    top: 24%;
+    left: 18%;
+  }
+
+
+  .img6 {
+ 
+    left: 43%;
+  }
+  .img10 {
+    height: 14vh;
+    top: 31%;
+    left: 62%; 
+}
+
+#c2i2{
+  height: 29vw;
+}
+
+.stats-box {
+  margin: 5px;
+}
+
+}
+
+
+
+}
